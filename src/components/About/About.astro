@@ -1,0 +1,31 @@
+---
+import SocialIcons from '../SocialIcons.astro';
+import Title from '../atoms/Title.astro';
+import "./about.css"
+
+
+---
+
+<section id="about" class="about">
+	<div class="about__container">
+		<img
+			class="about__img"
+			src="https://www.bpocenter.com.bo/wp-content/uploads/2017/11/10.jpg"
+			alt="Foto de perfil de Jhon Doe"
+		/>
+
+		<div class="about__content">
+			<Title margin="1rem" contenido="Sobre mí" />
+			<p class="about__text">
+				Soy Jose Luis Garcia Andreu, técnico en desarrollo de aplicaciones 
+				multiplataforma con experiencia en Outsystems, Java, Angular y 
+				Spring Boot. He trabajado en proyectos durante mis 
+				prácticas en Capgemini y me apasiona crear soluciones eficientes y 
+				funcionales, tanto en frontend como en backend. Siempre busco aprender 
+				nuevas tecnologías y mejorar mis habilidades como desarrollador.
+			</p>
+			<SocialIcons width="25" height="25"/>
+		</div>
+	</div>
+
+</section>
